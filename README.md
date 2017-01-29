@@ -13,6 +13,7 @@
 ## Our Algorithm
   We approached this problem with a gready algorithm. Each turn for each vertex we determined the nearest route to the closest vertex not belonging to us, and depending on the state of that cell (empty,enemy's) we lead a calculated portion of the army (now present in that cell) to the next vertex of the desired route.
   
+## Running the Game
   To run this game open FlowsGameServer-*.jar and then chose a map file to play in. Then in the Us_three folder run the command "make all". Now run the generated .jar file to start the game versus a desired AI, note that you should do the same with the oponents AI, if it is written in the same cpp format. For a test AI you can use the RandomClient AI that is represented in the repository.
   
 ## Pictures
